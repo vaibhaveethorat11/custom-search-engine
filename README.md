@@ -29,27 +29,31 @@ custom-search-engine/
 └── README.md
 
 ````
+---
+## 🛠️ Setup Instructions
 
-**🛠️ Setup Instructions
-1. Clone the repository:**
+**1. Clone the repository:**
 git clone https://github.com/YOUR_USERNAME/custom-search-engine.git
 cd custom-search-engine
-**
-3. Create and activate virtual environment:**
+
+**2. Create and activate virtual environment:**
 python -m venv venv
 source venv/bin/activate      # or venv\Scripts\activate (Windows)
 
-**4. Install dependencies:**
+**3. Install dependencies:**
 pip install -r requirements.txt
 
-**5. Add your documents:**
+**4. Add your documents:**
 Place .txt files inside the documents/ folder. These will be indexed and searched.
 
-**6. Run the app:**
+**5. Run the app:**
 python app.py
 Visit: http://localhost:5000
-**
-🧠 Example Queries**
+
+---
+
+## 🧠 **Example Queries**
+
 Try:
 
 machine learning
